@@ -63,7 +63,7 @@ const chatUI = new ChatUI(chatList);
 myfunction();
 function myfunction(){
     
-    if(prompt("Enter Password : ","")=="letmein"){
+    if(prompt("Enter Password : ","")=="admin"){
       document.getElementById("general").style.backgroundColor = "red";
         chatroom.getChat((data) => {
             chatUI.render(data);
