@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #89f7fe 0%, #66a6ff 100%);
+}
+.container{
+    max-width: 600px;
+}
+.btn{
+    background-color: blue;  
+    outline: none !important;
+    color: #fff;
+    box-shadow: none !important;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(230, 50, 50);
+    color: black;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    border: 1px solid black;
+}
+.username{
+    font-weight: bold;
+}
+.message{
+    font-weight: lighter;
+}
+.chat-window{
+    background-color: #fff;
+}
+.time{
+    font-size: 0.6rem;
+    color: gray ;
+}
+.pop-up{
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* #active{
+    background-color: red;
+} */
